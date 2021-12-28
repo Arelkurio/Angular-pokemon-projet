@@ -1,0 +1,66 @@
+.mat-toolbar {
+	 background-color: #ef5350;
+	 box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	 position: sticky;
+	 position: -webkit-sticky;
+	 top: 0;
+	 z-index: 1000;
+}
+ .mat-toolbar .pokemon-logo {
+	 margin-left: 50px;
+	 height: 50px;
+	 width: 150px;
+}
+ .mat-toolbar .mat-icon-button, .mat-toolbar .mat-icon {
+	 height: 35px;
+	 width: 35px;
+	 line-height: 35px;
+}
+ .mat-toolbar .search-box {
+	 margin-right: 10px;
+}
+ .mat-toolbar .search-box .search-input {
+	 font-size: 16px;
+	 font-weight: bold;
+	 margin-left: 50px;
+	 padding: 2px 5px 2px 20px;
+	 width: 270px;
+	 border-radius: 50px;
+	 border: none;
+	 outline: none !important;
+	 background: white;
+}
+ .mat-toolbar .search-box .close-button {
+	 margin-left: -35px;
+}
+ .mat-toolbar .mat-select {
+	 text-transform: capitalize;
+}
+ .mat-toolbar .mat-select .additional-selection {
+	 text-transform: lowercase;
+	 opacity: 0.75;
+	 font-size: 0.75em;
+}
+ .mat-toolbar .filter-component {
+	 margin-left: 80px;
+}
+ .mat-toolbar .filter-component .filter {
+	 margin-right: 10px;
+}
+ .mat-toolbar .filter-component .form-field {
+	 width: auto;
+	 margin-top: 8px;
+}
+ @media only screen and (max-width: 500px) {
+	 .mat-toolbar {
+		 display: table;
+		 padding: 20px;
+		 text-align: center;
+	}
+	 .pokemon-logo {
+		 display: none;
+	}
+	 .search-input, .search-box, .filter-component {
+		 margin: 5px 0px !important;
+	}
+}
