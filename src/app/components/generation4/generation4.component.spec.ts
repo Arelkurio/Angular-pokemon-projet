@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HeaderComponent } from './header.component';
+import { Generation4Component } from './generation4.component';
 
-describe('ContenuComponent', () => {
-  let component: HeaderComponent;
-  let fixture: ComponentFixture<HeaderComponent>;
+describe('Generation4Component', () => {
+  let component: Generation4Component;
+  let fixture: ComponentFixture<Generation4Component>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HeaderComponent ]
+      declarations: [ Generation4Component ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HeaderComponent);
+    fixture = TestBed.createComponent(Generation4Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

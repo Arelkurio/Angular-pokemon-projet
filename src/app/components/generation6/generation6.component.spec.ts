@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HeaderComponent } from './header.component';
+import { Generation6Component } from './generation6.component';
 
-describe('ContenuComponent', () => {
-  let component: HeaderComponent;
-  let fixture: ComponentFixture<HeaderComponent>;
+describe('Generation6Component', () => {
+  let component: Generation6Component;
+  let fixture: ComponentFixture<Generation6Component>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HeaderComponent ]
+      declarations: [ Generation6Component ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HeaderComponent);
+    fixture = TestBed.createComponent(Generation6Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -6,7 +6,7 @@ import { Results } from '../../interface';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
-export class ContenuComponent implements OnInit {
+export class HeaderComponent implements OnInit {
   @Output() searchChange = new EventEmitter();
   @Output() typeSelected = new EventEmitter();
   @Output() abilitiesSelected = new EventEmitter();

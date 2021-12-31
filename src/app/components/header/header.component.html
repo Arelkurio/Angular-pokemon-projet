@@ -37,4 +37,15 @@
       </mat-select>
     </mat-form-field>
   </div>
+  <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item [routerLink]="['/generation1']" routerLinkActive="router-link-active">Generation 1</button>
+    <button mat-menu-item [routerLink]="['/generation2']" routerLinkActive="router-link-active">Generation 2</button>
+    <button mat-menu-item [routerLink]="['/generation3']" routerLinkActive="router-link-active">Generation 3</button>
+    <button mat-menu-item [routerLink]="['/generation4']" routerLinkActive="router-link-active">Generation 4</button>
+    <button mat-menu-item [routerLink]="['/generation5']" routerLinkActive="router-link-active">Generation 5</button>
+    <button mat-menu-item [routerLink]="['/generation6']" routerLinkActive="router-link-active">Generation 6</button>
+    <button mat-menu-item [routerLink]="['/generation7']" routerLinkActive="router-link-active">Generation 7</button>
+    <button mat-menu-item [routerLink]="['/generation8']" routerLinkActive="router-link-active">Generation 8</button>
+  </mat-menu>
 </mat-toolbar>

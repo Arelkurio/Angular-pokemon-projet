@@ -3,8 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { AccueilComponent } from './components/list/list.component';
-import { ContenuComponent } from './components/header/header.component';
+import { Generation1Component } from './components/generation1/generation1.component';
+import { Generation2Component } from './components/generation2/generation2.component';
+import { Generation3Component } from './components/generation3/generation3.component';
+import { Generation4Component } from './components/generation4/generation4.component';
+import { Generation5Component } from './components/generation5/generation5.component';
+import { Generation6Component } from './components/generation6/generation6.component';
+import { Generation7Component } from './components/generation7/generation7.component';
+import { Generation8Component } from './components/generation8/generation8.component';
+import { HeaderComponent } from './components/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 
@@ -53,19 +60,29 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatTreeModule } from '@angular/material/tree';
 import { AbilitiesFilterPipe } from './pipe/abilities-filter.pipe';
 
+import { AppRoutingModule } from './app-routing.module';
+
 
 import { SearchPipe } from './pipe/search.pipe';
 import { TypeFilterPipe } from './pipe/type-filter.pipe';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    AccueilComponent,
+    Generation1Component,
     AbilitiesFilterPipe,
     SearchPipe,
     TypeFilterPipe,
-    ContenuComponent
+    HeaderComponent,
+    Generation2Component,
+    Generation3Component,
+    Generation4Component,
+    Generation5Component,
+    Generation6Component,
+    Generation7Component,
+    Generation8Component
   ],
   imports: [
     BrowserModule,
@@ -113,7 +130,8 @@ import { TypeFilterPipe } from './pipe/type-filter.pipe';
     MatTreeModule,
     PortalModule,
     ScrollingModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   exports: [],
   providers: [],
